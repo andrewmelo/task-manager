@@ -1,8 +1,13 @@
 {
-  "scripts":{
-    "start": "nodemon app.js"
+  "name": "task-manager",
+  "version": "1.0.0",
+  "description": "A task manager for web",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "nodemon main.js"
   },
   "dependencies": {
+    "dotenv": "^16.0.0",
     "nodemon": "^2.0.15"
   }
 }
